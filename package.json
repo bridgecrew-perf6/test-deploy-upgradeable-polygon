@@ -1,0 +1,18 @@
+{
+  "name": "test-deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "hardhat --network matic run ./deploy.js"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.2.0",
+    "@openzeppelin/hardhat-upgrades": "1.12.0",
+    "hardhat": "^2.4.3"
+  },
+  "dependencies": {
+    "ethers": "^5.5.4"
+  }
+}
