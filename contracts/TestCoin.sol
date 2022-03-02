@@ -4,8 +4,6 @@ pragma solidity 0.8.4;
 import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
 
 contract TestCoin2 is ERC20Upgradeable {
-    mapping(uint256 => bytes) public data;
-
     function initialize() public initializer {
         __ERC20_init("TC", "TC");
     }
